@@ -43,9 +43,9 @@ local subcommands = {
   diagnostic_jump_prev = function()
     require('lspsaga.diagnostic'):goto_prev()
   end,
-  code_action = function()
-    require('lspsaga.codeaction'):code_action()
-  end,
+  -- code_action = function()
+  --   require('lspsaga.codeaction'):code_action()
+  -- end,
   outline = function()
     require('lspsaga.symbol'):outline()
   end,
